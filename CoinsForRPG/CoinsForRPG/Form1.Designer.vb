@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -50,6 +50,7 @@ Partial Class Form1
         '
         Me.txtlevel.Location = New System.Drawing.Point(50, 38)
         Me.txtlevel.Name = "txtlevel"
+        Me.txtlevel.ReadOnly = True
         Me.txtlevel.Size = New System.Drawing.Size(100, 20)
         Me.txtlevel.TabIndex = 4
         '
@@ -57,6 +58,7 @@ Partial Class Form1
         '
         Me.txtcoin.Location = New System.Drawing.Point(50, 89)
         Me.txtcoin.Name = "txtcoin"
+        Me.txtcoin.ReadOnly = True
         Me.txtcoin.Size = New System.Drawing.Size(100, 20)
         Me.txtcoin.TabIndex = 5
         '
