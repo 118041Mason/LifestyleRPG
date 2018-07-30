@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -125,7 +125,7 @@ Partial Class Form1
         Me.lblExpCount.AutoSize = True
         Me.lblExpCount.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblExpCount.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lblExpCount.Location = New System.Drawing.Point(260, 38)
+        Me.lblExpCount.Location = New System.Drawing.Point(226, 38)
         Me.lblExpCount.Name = "lblExpCount"
         Me.lblExpCount.Size = New System.Drawing.Size(84, 13)
         Me.lblExpCount.TabIndex = 7
