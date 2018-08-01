@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lboMissions = New System.Windows.Forms.ListBox()
         Me.btnCreate = New System.Windows.Forms.Button()
@@ -30,7 +30,6 @@ Partial Class Form1
         Me.btnShop = New System.Windows.Forms.Button()
         Me.lblExpCount = New System.Windows.Forms.Label()
         Me.lblCoinCounter = New System.Windows.Forms.Label()
-        Me.btnDefaultbg = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnBlackbg = New System.Windows.Forms.Button()
         Me.btnBluebg = New System.Windows.Forms.Button()
@@ -61,8 +60,21 @@ Partial Class Form1
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.txtAddMission = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lboMissions
@@ -75,31 +87,35 @@ Partial Class Form1
         '
         'btnCreate
         '
+        Me.btnCreate.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCreate.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCreate.Location = New System.Drawing.Point(19, 53)
         Me.btnCreate.Name = "btnCreate"
         Me.btnCreate.Size = New System.Drawing.Size(200, 46)
         Me.btnCreate.TabIndex = 1
         Me.btnCreate.Text = "Create Mission"
-        Me.btnCreate.UseVisualStyleBackColor = True
+        Me.btnCreate.UseVisualStyleBackColor = False
         '
         'btnFinish
         '
+        Me.btnFinish.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnFinish.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnFinish.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFinish.Location = New System.Drawing.Point(19, 105)
         Me.btnFinish.Name = "btnFinish"
         Me.btnFinish.Size = New System.Drawing.Size(200, 46)
         Me.btnFinish.TabIndex = 2
         Me.btnFinish.Text = "Finish Open Mission"
-        Me.btnFinish.UseVisualStyleBackColor = True
+        Me.btnFinish.UseVisualStyleBackColor = False
         '
         'pgbExperience
         '
         Me.pgbExperience.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.pgbExperience.ForeColor = System.Drawing.SystemColors.InactiveCaptionText
         Me.pgbExperience.Location = New System.Drawing.Point(63, 12)
         Me.pgbExperience.Name = "pgbExperience"
         Me.pgbExperience.Size = New System.Drawing.Size(283, 23)
+        Me.pgbExperience.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.pgbExperience.TabIndex = 3
         '
         'lblLevel
@@ -114,13 +130,15 @@ Partial Class Form1
         '
         'btnShop
         '
+        Me.btnShop.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnShop.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnShop.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnShop.Location = New System.Drawing.Point(13, 194)
         Me.btnShop.Name = "btnShop"
         Me.btnShop.Size = New System.Drawing.Size(98, 55)
         Me.btnShop.TabIndex = 5
         Me.btnShop.Text = "Open Shop"
-        Me.btnShop.UseVisualStyleBackColor = True
+        Me.btnShop.UseVisualStyleBackColor = False
         '
         'lblExpCount
         '
@@ -144,16 +162,6 @@ Partial Class Form1
         Me.lblCoinCounter.TabIndex = 8
         Me.lblCoinCounter.Text = "Coins: 0"
         '
-        'btnDefaultbg
-        '
-        Me.btnDefaultbg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDefaultbg.Location = New System.Drawing.Point(55, 285)
-        Me.btnDefaultbg.Name = "btnDefaultbg"
-        Me.btnDefaultbg.Size = New System.Drawing.Size(123, 38)
-        Me.btnDefaultbg.TabIndex = 9
-        Me.btnDefaultbg.Text = "Default Background"
-        Me.btnDefaultbg.UseVisualStyleBackColor = True
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -166,143 +174,171 @@ Partial Class Form1
         '
         'btnBlackbg
         '
+        Me.btnBlackbg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnBlackbg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnBlackbg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBlackbg.Location = New System.Drawing.Point(229, 285)
         Me.btnBlackbg.Name = "btnBlackbg"
         Me.btnBlackbg.Size = New System.Drawing.Size(123, 38)
         Me.btnBlackbg.TabIndex = 11
         Me.btnBlackbg.Text = "Black Background"
-        Me.btnBlackbg.UseVisualStyleBackColor = True
+        Me.btnBlackbg.UseVisualStyleBackColor = False
         '
         'btnBluebg
         '
+        Me.btnBluebg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnBluebg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnBluebg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBluebg.Location = New System.Drawing.Point(55, 329)
         Me.btnBluebg.Name = "btnBluebg"
         Me.btnBluebg.Size = New System.Drawing.Size(123, 38)
         Me.btnBluebg.TabIndex = 12
         Me.btnBluebg.Text = "Blue Background"
-        Me.btnBluebg.UseVisualStyleBackColor = True
+        Me.btnBluebg.UseVisualStyleBackColor = False
         '
         'btnWhitebg
         '
+        Me.btnWhitebg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnWhitebg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnWhitebg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnWhitebg.Location = New System.Drawing.Point(229, 329)
         Me.btnWhitebg.Name = "btnWhitebg"
         Me.btnWhitebg.Size = New System.Drawing.Size(123, 38)
         Me.btnWhitebg.TabIndex = 13
         Me.btnWhitebg.Text = "White Background"
-        Me.btnWhitebg.UseVisualStyleBackColor = True
+        Me.btnWhitebg.UseVisualStyleBackColor = False
         '
         'btnGreenbg
         '
+        Me.btnGreenbg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnGreenbg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnGreenbg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGreenbg.Location = New System.Drawing.Point(55, 373)
         Me.btnGreenbg.Name = "btnGreenbg"
         Me.btnGreenbg.Size = New System.Drawing.Size(123, 38)
         Me.btnGreenbg.TabIndex = 14
         Me.btnGreenbg.Text = "Green Background"
-        Me.btnGreenbg.UseVisualStyleBackColor = True
+        Me.btnGreenbg.UseVisualStyleBackColor = False
         '
         'btnRedbg
         '
+        Me.btnRedbg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnRedbg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnRedbg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRedbg.Location = New System.Drawing.Point(229, 373)
         Me.btnRedbg.Name = "btnRedbg"
         Me.btnRedbg.Size = New System.Drawing.Size(123, 38)
         Me.btnRedbg.TabIndex = 15
         Me.btnRedbg.Text = "Red Background"
-        Me.btnRedbg.UseVisualStyleBackColor = True
+        Me.btnRedbg.UseVisualStyleBackColor = False
         '
         'btnYellowbg
         '
+        Me.btnYellowbg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnYellowbg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnYellowbg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnYellowbg.Location = New System.Drawing.Point(55, 417)
         Me.btnYellowbg.Name = "btnYellowbg"
         Me.btnYellowbg.Size = New System.Drawing.Size(123, 38)
         Me.btnYellowbg.TabIndex = 16
         Me.btnYellowbg.Text = "Yellow Background"
-        Me.btnYellowbg.UseVisualStyleBackColor = True
+        Me.btnYellowbg.UseVisualStyleBackColor = False
         '
         'btnMatrixThm
         '
+        Me.btnMatrixThm.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnMatrixThm.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnMatrixThm.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMatrixThm.Location = New System.Drawing.Point(229, 417)
         Me.btnMatrixThm.Name = "btnMatrixThm"
         Me.btnMatrixThm.Size = New System.Drawing.Size(123, 38)
         Me.btnMatrixThm.TabIndex = 17
         Me.btnMatrixThm.Text = "Matrix Theme"
-        Me.btnMatrixThm.UseVisualStyleBackColor = True
+        Me.btnMatrixThm.UseVisualStyleBackColor = False
         '
         'btnOrangebg
         '
+        Me.btnOrangebg.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnOrangebg.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnOrangebg.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnOrangebg.Location = New System.Drawing.Point(55, 461)
         Me.btnOrangebg.Name = "btnOrangebg"
         Me.btnOrangebg.Size = New System.Drawing.Size(123, 38)
         Me.btnOrangebg.TabIndex = 18
         Me.btnOrangebg.Text = "Orange Background"
-        Me.btnOrangebg.UseVisualStyleBackColor = True
+        Me.btnOrangebg.UseVisualStyleBackColor = False
         '
         'btnCandyThm
         '
+        Me.btnCandyThm.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCandyThm.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCandyThm.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCandyThm.Location = New System.Drawing.Point(229, 461)
         Me.btnCandyThm.Name = "btnCandyThm"
         Me.btnCandyThm.Size = New System.Drawing.Size(123, 38)
         Me.btnCandyThm.TabIndex = 19
         Me.btnCandyThm.Text = "Candy theme"
-        Me.btnCandyThm.UseVisualStyleBackColor = True
+        Me.btnCandyThm.UseVisualStyleBackColor = False
         '
         'btnChristmasThm
         '
+        Me.btnChristmasThm.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnChristmasThm.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnChristmasThm.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnChristmasThm.Location = New System.Drawing.Point(401, 285)
         Me.btnChristmasThm.Name = "btnChristmasThm"
         Me.btnChristmasThm.Size = New System.Drawing.Size(123, 38)
         Me.btnChristmasThm.TabIndex = 20
         Me.btnChristmasThm.Text = "Christmas Theme"
-        Me.btnChristmasThm.UseVisualStyleBackColor = True
+        Me.btnChristmasThm.UseVisualStyleBackColor = False
         '
         'btnFireThm
         '
+        Me.btnFireThm.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnFireThm.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnFireThm.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFireThm.Location = New System.Drawing.Point(401, 329)
         Me.btnFireThm.Name = "btnFireThm"
         Me.btnFireThm.Size = New System.Drawing.Size(123, 38)
         Me.btnFireThm.TabIndex = 21
         Me.btnFireThm.Text = "Fire Theme"
-        Me.btnFireThm.UseVisualStyleBackColor = True
+        Me.btnFireThm.UseVisualStyleBackColor = False
         '
         'btnIceThm
         '
+        Me.btnIceThm.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnIceThm.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnIceThm.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIceThm.Location = New System.Drawing.Point(401, 373)
         Me.btnIceThm.Name = "btnIceThm"
         Me.btnIceThm.Size = New System.Drawing.Size(123, 38)
         Me.btnIceThm.TabIndex = 22
         Me.btnIceThm.Text = "Ice theme"
-        Me.btnIceThm.UseVisualStyleBackColor = True
+        Me.btnIceThm.UseVisualStyleBackColor = False
         '
         'btnDevThm1
         '
+        Me.btnDevThm1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnDevThm1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnDevThm1.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDevThm1.Location = New System.Drawing.Point(401, 417)
         Me.btnDevThm1.Name = "btnDevThm1"
         Me.btnDevThm1.Size = New System.Drawing.Size(123, 38)
         Me.btnDevThm1.TabIndex = 23
         Me.btnDevThm1.Text = "Dev Theme I"
-        Me.btnDevThm1.UseVisualStyleBackColor = True
+        Me.btnDevThm1.UseVisualStyleBackColor = False
         '
         'btnDevThm2
         '
+        Me.btnDevThm2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnDevThm2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnDevThm2.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDevThm2.Location = New System.Drawing.Point(401, 461)
         Me.btnDevThm2.Name = "btnDevThm2"
         Me.btnDevThm2.Size = New System.Drawing.Size(123, 38)
         Me.btnDevThm2.TabIndex = 24
         Me.btnDevThm2.Text = "Dev theme II"
-        Me.btnDevThm2.UseVisualStyleBackColor = True
+        Me.btnDevThm2.UseVisualStyleBackColor = False
         '
         'Label2
         '
@@ -454,33 +490,221 @@ Partial Class Form1
         Me.Label16.TabIndex = 39
         Me.Label16.Text = "200"
         '
-        'txtAddMission
-        '
-        Me.txtAddMission.Location = New System.Drawing.Point(229, 71)
-        Me.txtAddMission.Name = "txtAddMission"
-        Me.txtAddMission.Size = New System.Drawing.Size(100, 20)
-        Me.txtAddMission.TabIndex = 40
-        '
         'Button1
         '
-        Me.Button1.Enabled = False
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(229, 105)
+        Me.Button1.Location = New System.Drawing.Point(401, 461)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 46)
-        Me.Button1.TabIndex = 41
-        Me.Button1.Text = "Complete"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Size = New System.Drawing.Size(123, 38)
+        Me.Button1.TabIndex = 54
+        Me.Button1.Text = "Use Dev II"
+        Me.Button1.UseVisualStyleBackColor = False
         Me.Button1.Visible = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(401, 417)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(123, 38)
+        Me.Button2.TabIndex = 53
+        Me.Button2.Text = "Use Dev I"
+        Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.Visible = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button3.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(401, 373)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(123, 38)
+        Me.Button3.TabIndex = 52
+        Me.Button3.Text = "Use Ice"
+        Me.Button3.UseVisualStyleBackColor = False
+        Me.Button3.Visible = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(401, 329)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(123, 38)
+        Me.Button4.TabIndex = 51
+        Me.Button4.Text = "Use Fire"
+        Me.Button4.UseVisualStyleBackColor = False
+        Me.Button4.Visible = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button5.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Location = New System.Drawing.Point(401, 285)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(123, 38)
+        Me.Button5.TabIndex = 50
+        Me.Button5.Text = "Use Christmas"
+        Me.Button5.UseVisualStyleBackColor = False
+        Me.Button5.Visible = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button6.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Location = New System.Drawing.Point(229, 461)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(123, 38)
+        Me.Button6.TabIndex = 49
+        Me.Button6.Text = "Use Candy"
+        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button6.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button7.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Location = New System.Drawing.Point(55, 461)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(123, 38)
+        Me.Button7.TabIndex = 48
+        Me.Button7.Text = "Use Orange"
+        Me.Button7.UseVisualStyleBackColor = False
+        Me.Button7.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button8.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Location = New System.Drawing.Point(229, 417)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(123, 38)
+        Me.Button8.TabIndex = 47
+        Me.Button8.Text = "Use Matrix"
+        Me.Button8.UseVisualStyleBackColor = False
+        Me.Button8.Visible = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button9.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Location = New System.Drawing.Point(55, 417)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(123, 38)
+        Me.Button9.TabIndex = 46
+        Me.Button9.Text = "Use Yellow"
+        Me.Button9.UseVisualStyleBackColor = False
+        Me.Button9.Visible = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button10.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.Location = New System.Drawing.Point(229, 373)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(123, 38)
+        Me.Button10.TabIndex = 45
+        Me.Button10.Text = "Use Red"
+        Me.Button10.UseVisualStyleBackColor = False
+        Me.Button10.Visible = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button11.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Location = New System.Drawing.Point(55, 373)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(123, 38)
+        Me.Button11.TabIndex = 44
+        Me.Button11.Text = "Use Green"
+        Me.Button11.UseVisualStyleBackColor = False
+        Me.Button11.Visible = False
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button12.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.Location = New System.Drawing.Point(229, 329)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(123, 38)
+        Me.Button12.TabIndex = 43
+        Me.Button12.Text = "Use White"
+        Me.Button12.UseVisualStyleBackColor = False
+        Me.Button12.Visible = False
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button13.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(55, 329)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(123, 38)
+        Me.Button13.TabIndex = 42
+        Me.Button13.Text = "Use Blue"
+        Me.Button13.UseVisualStyleBackColor = False
+        Me.Button13.Visible = False
+        '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button14.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(229, 285)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(123, 38)
+        Me.Button14.TabIndex = 41
+        Me.Button14.Text = "Use Black"
+        Me.Button14.UseVisualStyleBackColor = False
+        Me.Button14.Visible = False
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button15.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.Location = New System.Drawing.Point(55, 285)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(123, 38)
+        Me.Button15.TabIndex = 40
+        Me.Button15.Text = "Use Default"
+        Me.Button15.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(536, 511)
+        Me.ClientSize = New System.Drawing.Size(536, 261)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.txtAddMission)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Button12)
+        Me.Controls.Add(Me.Button13)
+        Me.Controls.Add(Me.Button14)
+        Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
@@ -511,7 +735,6 @@ Partial Class Form1
         Me.Controls.Add(Me.btnBluebg)
         Me.Controls.Add(Me.btnBlackbg)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.btnDefaultbg)
         Me.Controls.Add(Me.lblCoinCounter)
         Me.Controls.Add(Me.lblExpCount)
         Me.Controls.Add(Me.btnShop)
@@ -535,7 +758,6 @@ Partial Class Form1
     Friend WithEvents btnShop As Button
     Friend WithEvents lblExpCount As Label
     Friend WithEvents lblCoinCounter As Label
-    Friend WithEvents btnDefaultbg As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents btnBlackbg As Button
     Friend WithEvents btnBluebg As Button
@@ -566,6 +788,20 @@ Partial Class Form1
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents txtAddMission As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button15 As Button
 End Class
+
