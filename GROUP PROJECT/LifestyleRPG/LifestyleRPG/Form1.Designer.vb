@@ -75,6 +75,9 @@ Partial Class Form1
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
+        Me.tboMission = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.btnComplete = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lboMissions
@@ -90,7 +93,7 @@ Partial Class Form1
         Me.btnCreate.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCreate.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCreate.Location = New System.Drawing.Point(19, 53)
+        Me.btnCreate.Location = New System.Drawing.Point(146, 54)
         Me.btnCreate.Name = "btnCreate"
         Me.btnCreate.Size = New System.Drawing.Size(200, 46)
         Me.btnCreate.TabIndex = 1
@@ -102,7 +105,7 @@ Partial Class Form1
         Me.btnFinish.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.btnFinish.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnFinish.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFinish.Location = New System.Drawing.Point(19, 105)
+        Me.btnFinish.Location = New System.Drawing.Point(146, 106)
         Me.btnFinish.Name = "btnFinish"
         Me.btnFinish.Size = New System.Drawing.Size(200, 46)
         Me.btnFinish.TabIndex = 2
@@ -684,12 +687,46 @@ Partial Class Form1
         Me.Button15.Text = "Use Default"
         Me.Button15.UseVisualStyleBackColor = False
         '
+        'tboMission
+        '
+        Me.tboMission.Location = New System.Drawing.Point(40, 68)
+        Me.tboMission.Name = "tboMission"
+        Me.tboMission.Size = New System.Drawing.Size(100, 20)
+        Me.tboMission.TabIndex = 55
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(13, 54)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(70, 13)
+        Me.Label17.TabIndex = 56
+        Me.Label17.Text = "Mission:"
+        '
+        'btnComplete
+        '
+        Me.btnComplete.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnComplete.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnComplete.Font = New System.Drawing.Font("Racer", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnComplete.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.btnComplete.Location = New System.Drawing.Point(40, 106)
+        Me.btnComplete.Name = "btnComplete"
+        Me.btnComplete.Size = New System.Drawing.Size(98, 46)
+        Me.btnComplete.TabIndex = 57
+        Me.btnComplete.Text = "Complete"
+        Me.btnComplete.UseVisualStyleBackColor = False
+        Me.btnComplete.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(536, 261)
+        Me.Controls.Add(Me.btnComplete)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.tboMission)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button3)
@@ -803,5 +840,9 @@ Partial Class Form1
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
+    Friend WithEvents tboMission As TextBox
+    Friend WithEvents Label17 As Label
+    Friend WithEvents btnComplete As Button
 End Class
+
 
